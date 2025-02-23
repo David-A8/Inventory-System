@@ -2,12 +2,12 @@
 #include <string>
 class item
 {
-private:
+private: //Private variables are defined
 	std::string item_name;
 	int item_quantity;
 	float item_price;
 
-public:
+public: //Public variables and functions are defined
 	item();
 	item(std::string i_name, int i_quantity, float i_price);
 	void enter_data();
