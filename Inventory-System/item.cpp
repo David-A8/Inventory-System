@@ -28,3 +28,17 @@ string item::get_name()
 {
     return item_name;
 }
+
+void item::edit_data()
+{
+    system("cls");
+    cout << "Edit item\n";
+    cout << "\nItem name: ";
+    cin >> item_name;
+    cout << "Item Price: ";
+    cin >> item_price;
+    cout << "Quantity: ";
+    cin >> item_quantity;
+    cout << "\nItem edited\n";
+    system("pause");
+}

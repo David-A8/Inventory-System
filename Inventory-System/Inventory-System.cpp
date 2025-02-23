@@ -11,6 +11,7 @@
 using namespace std;
 
 void add_item(list<item>& item_list);
+void show_items(list<item>& item_list);
 list<item>::iterator find_name(list<item>& item_list);
 
 int main()
@@ -29,25 +30,27 @@ int main()
         cout << "\nPlease choose from Menu: \n";
         cin >> option;
         if (option == 1) {
-            system("cls");
-            cout << "Shopping List\n";
-            for_each(items.begin(), items.end(), [](item item_display) {
-                item_display.display_data();
-                });
+            show_items(items);
             system("pause");
         }
         if (option == 2) {
             system("cls");
             add_item(items);
         }
+        if (option == 3) {
+            string choice;
+            show_items(items);
+            list<item>::iterator it;
+            it = find_name(items);
+            if (it != items.end())
+            {
+                it->edit_data();
+            }
+        }
         if (option == 4) {
             string i_name;
-            system("cls");
-            cout << "Shopping List\n";
-            for_each(items.begin(), items.end(), [](item item_display) {
-                item_display.display_data();
-                });
-            cout << "What item do you want to remove: ";
+            show_items(items);
+            cout << "\nWhat item do you want to remove: ";
             cin >> i_name;
             auto item_del = remove_if(items.begin(), items.end(), [i_name](item& name) {
                 return name.get_name() == i_name;
@@ -59,6 +62,15 @@ int main()
     }
 }
 
+void show_items(list<item>& item_list)
+{
+    system("cls");
+    cout << "Shopping List\n";
+    for_each(item_list.begin(), item_list.end(), [](item item_display) {
+        item_display.display_data();
+        });
+}
+
 void add_item(list<item>& item_list)
 {
     item item;
@@ -68,7 +80,19 @@ void add_item(list<item>& item_list)
 
 list<item>::iterator find_name(list<item>& item_list)
 {
-    return list<item>::iterator();
+    std::string i_name;
+    std::cout << "Enter the item to modify: ";
+    std::cin >> i_name;
+    list<item>::iterator it;
+    for (it = item_list.begin(); it != item_list.end(); it++)
+    {
+        if (it->get_name() == i_name)
+        {
+            return it;
+        }
+    }
+    std::cout << "Item no found. \n";
+    return it;
 }
 
 

@@ -13,6 +13,6 @@ public:
 	void enter_data();
 	void display_data();
 	std::string get_name();
-	//void edit_data();
+	void edit_data();
 };
 

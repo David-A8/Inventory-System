@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|solutionrelative:item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\Inventory-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|solutionrelative:Inventory-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|solutionrelative:item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{818284E2-B692-4C2D-B587-9D177844E0A9}|Inventory-System.vcxproj|solutionrelative:item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "item.cpp",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\item.cpp",
               "RelativeDocumentMoniker": "item.cpp",
               "ToolTip": "C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\item.cpp",
               "RelativeToolTip": "item.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAD4vx0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-21T19:30:54.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "item.h",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\item.h",
               "RelativeDocumentMoniker": "item.h",
@@ -47,18 +47,17 @@
               "RelativeToolTip": "item.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-21T17:46:24.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T17:46:24.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Inventory-System.cpp",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\Inventory-System.cpp",
               "RelativeDocumentMoniker": "Inventory-System.cpp",
               "ToolTip": "C:\\Users\\david\\Documents\\Classes\\Winter 2025\\Sprint 3\\Inventory-System\\Inventory-System\\Inventory-System.cpp",
               "RelativeToolTip": "Inventory-System.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwC8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-21T02:24:07.592Z",
               "EditorCaption": ""
