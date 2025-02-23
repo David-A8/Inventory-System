@@ -1,32 +1,30 @@
+
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a software that creates shopping lists. The user can add items to it along with their prices and the quantity they want to buy. The software allows the user to keep track of what they need to buy when grocery shopping and it could potentially help them to create a budget before going to the store.
+The purpose of this software is to applied the knowledge adquired about C++. Some of the knowledge includes public and private variables, functions, classes, and loops. All of these elements were used to create this Inventory System.
 
-{Provide a description of the software that you wrote to demonstrate the C++ language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+A demostration of how the software works and how its code works can be found in the following link:
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+To develop this software Visual Studio 2022 was used and the C++ libraries included in it. 
 
-{Describe the programming language that you used and any libraries.}
+The Inventory System program was created in C++ using built-in libraries. No third-party libraries were needed or exported to develop this software
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+Some websites that were helpful in this project:
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Geeks for geeks](https://www.geeksforgeeks.org/c-plus-plus/?ref=shm)
+- [W3schools](https://www.w3schools.com/cpp/cpp_intro.asp)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+Some things that you will be added and improved in the future are:
 
-- Item 1
-- Item 2
-- Item 3
+- Measurement units. Right now the program doesn't show any measurement units but in the future the program will ask the user what measurement unit they want to use for each item
+- Verify an item exists before deleting it. Right now the program only verifies if an item exists before editing it, but the verification will be added for deleting items as well
+- Save the list locally. Currently the program only creates the list and interacts with it until the program is closed, but one of the improvements for the program will be to let the user save their lists locally and load them back when they need them
