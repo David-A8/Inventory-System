@@ -6,7 +6,7 @@ The purpose of this software is to applied the knowledge adquired about C++. Som
 
 A demostration of how the software works and how its code works can be found in the following link:
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/fSbl5gc6CJM)
 
 # Development Environment
 
